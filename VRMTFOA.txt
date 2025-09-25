@@ -1,0 +1,98 @@
+VRMTFOA: Gaze-Guided Virtual Reality Mirror Therapy that Enhances Cortical Activation and Network Coherence for Stroke Rehabilitation
+ 
+
+Ai-Ting Huang
+Department of Biomedical Engineering
+National Cheng Kung University
+Taiwan
+Email: kikihuang1201@gmail.com	Hsiu-Yun Hsu *
+Department of Occupational Therapy
+National Cheng Kung University
+Taiwan
+Email: hyhsu@mail.ncku.edu.tw	Che-Wei Lin*
+Department of Biomedical Engineering
+National Cheng Kung University
+Taiwan
+Email: lincw@mail.ncku.edu.tw	
+
+ 
+
+
+ 
+Abstract— Conventional mirror therapy has limited ability to direct visual attention in stroke patients with hemiparesis, reducing neurorehabilitative efficacy. We developed Virtual Reality Mirror Therapy with Focused Objective Attention (VRMTFOA), integrating immersive VR with dual motor-cognitive tasks, real-time eye-tracking, and auditory cues to sustain gaze on the paretic limb during training. A pilot crossover study with twenty healthy adults evaluated system effectiveness using eye-tracking and EEG. Results showed VRMTFOA increased average fixation duration on the affected limb by 67.7% compared to standard VRMT, reaching 97.4% with auditory feedback (VRMTFOA-AF). EEG analysis revealed VRMTFOA induced the strongest Mu and Beta event-related desynchronization over motor cortex, indicating enhanced cortical activation. VRMTFOA-AF produced the most stable neural coherence during post-task recovery. These findings demonstrate that coupling objective attention guidance with VR mirror therapy effectively enhances neural engagement and may promote neuroplasticity, offering a more precise pathway for stroke rehabilitation.
+Keywords—Virtual Reality, Mirror Therapy, Stroke Rehabilitation, EEG, Focused Objective Attention
+I.	INTRODUCTION
+Hemiparesis, characterized by significant weakness or partial paralysis on one side of the body, severely affects daily functionality and independence [1]. Patients with hemiparesis frequently encounter cognitive impairments such as aphasia, spatial neglect, and executive dysfunction [2].. Additionally, many experience sensory neglect, unintentionally disregarding the affected limb and the corresponding hemifield, further complicating rehabilitation. Given the global impact—approximately 12 million new stroke cases each year, with 70–80% developing upper-limb hemiparesis—effective intervention methods are essential [3].
+Conventional mirror therapy uses visual reflections to create the illusion of affected-limb movement, stimulating motor cortical regions and aiding neural recovery (Figure 1) [3]. Despite these advantages, conventional mirror therapy faces critical limitations: limited viewing angles, repetitive and monotonous exercises, susceptibility to distractions, and declining patient motivation over time [4][5]. Importantly, it lacks objective measures to confirm patients’ visual attention on the affected limb. Without quantifiable gaze data, clinicians cannot verify whether patients maintain sufficient visual engagement—crucial for therapeutic efficacy—limiting the therapy’s overall effectiveness and reliability.
+To overcome these limitations, this paper introduces the Virtual Reality Mirror Therapy with Focused Objective Attention (VRMTFOA) system. By integrating immersive virtual reality with real-time eye-tracking and dual-task designs, our approach aims to objectively guide and quantify patient attention, thereby enhancing the therapeutic efficacy of mirror therapy. This paper will first review the theoretical foundations, followed by a detailed description of the system design and experimental protocol. Subsequently, we will present the preliminary results from eye-tracking and EEG data, and finally discuss the implications of our findings for stroke rehabilitation.
+  
+Figure 1.  Traditional Mirror Therapy vs. VRMTFOA Diagram
+II.	RELATED WORK
+Motor recovery following stroke relies fundamentally on activity-dependent neuroplasticity, which is enhanced by two critical elements: congruent multisensory feedback representing successful paretic limb movement, and focused, goal-directed attention that intensifies synaptic modifications. Mirror-visual feedback (MVF) targets the first element by stimulating essential motor-cortical and attentional networks, thereby reducing inter-hemispheric imbalance and promoting motor recovery [6]. Randomized trials have confirmed that integrating mirror therapy with task-oriented training (MT + TOT) produces superior upper-limb functional improvements compared to TOT alone [7]. 
+However, conventional mirror therapy suffers from limitations including a static viewing perspective and monotonous exercises. Immersive virtual reality (VR) addresses these constraints by creating an interactive three-dimensional therapeutic environment. Pilot randomized controlled trials demonstrate that VR mirror therapy (VRMT) outperforms standard MT in improving fine-motor control and Fugl-Meyer assessments [8][9]. Task-oriented training (TOT), which incorporates real-world activities into rehabilitation protocols, remains essential for promoting use-dependent cortical reorganization and achieving more lasting outcomes than abstract movements [10].
+The second neuroplasticity-enhancing factor—sustained attention—poses ongoing challenges for conventional approaches. Electroencephalography (EEG) provides direct neural engagement measurement, with Mu (8–13 Hz) and Beta (13–30 Hz) event-related desynchronization (ERD) serving as primary indicators of motor preparation and sustained attention [11]. Research demonstrates that mirror therapy generates enhanced Mu-ERD correlating with hand-function improvements[12]. Additionally, integrating real-time EEG-based attention feedback within VR environments strengthens the connection between sustained attention and motor enhancement.
+Although evidence independently validates the effectiveness of MVF, VR immersion, TOT, and EEG-guided attention, no current platform combines these complementary components. The VRMTFOA system addresses this gap by integrating VR-based mirror environments with eye-tracking and auditory guidance to maintain visual focus on the paretic limb, while employing continuous EEG monitoring to confirm neural engagement within a task-oriented structure, delivering more targeted and effective stroke rehabilitation.
+III.	METHODOLOGY
+A.	System Architecture 
+The proposed architecture enriches conventional mirror therapy by embedding real-time attentional guidance within an immersive virtual reality (VR) environment (Figure 2). A realistic virtual avatar provides synchronized visual-motor feedback, which enhances visual freedom, expands task diversity, and directs attentional engagement toward the paretic limb. This design directly overcomes a critical limitation of its non-interactive, conventional counterpart.
+  Figure 2. System workflow
+B.	Dual-task Scenario Design
+Our dual-task scenarios are engineered to compel sustained attention toward the paretic limb’s workspace by integrating a cognitive challenge with a motor task. For instance, users must solve an arithmetic problem before manipulating a corresponding object, or sort virtual cards by suit and number prior to placement (Figures 3-4). Critically, while the scenarios are presented symmetrically, the cognitive component of each task demands engagement within the virtual space of the affected limb. This design intentionally biases attentional allocation, and its efficacy is objectively quantified by eye-tracking metrics such as fixation duration and dwell time. These specific tasks were chosen as they serve as functional analogues to daily activities that require both executive function (planning and problem-solving) and fine motor control—two areas commonly affected by stroke.
+ 
+Figure 3. Dual‑task scenario: number‑object matching
+ 
+Figure 4. Dual‑task scenario: card sorting
+C.	Experimental Protocol 
+Experimental Design: The system's efficacy was evaluated in a randomized crossover trial involving twenty healthy participants who were assigned to different intervention conditions as detailed in Figure 5.
+Data Acquisition: We collected two primary streams of data. First, the VR headset's integrated eye-tracking system captured precise gaze trajectories to map attentional distribution. Second, we used concurrent electroencephalography (EEG) to continuously monitor neurophysiological activity.
+Data Analysis: Our analysis focused on several key neural markers. We assessed functional connectivity to measure synchronization between brain regions for attention and motor control. Event-Related Desynchronization (ERD) was calculated to quantify task-related cortical activation. This multi-modal analysis enables an investigation into how our "decide-then-act" task design modulates neural resources and promotes neuroplasticity.
+ 
+Figure 5. Randomized crossover trial comparing VRMT, VRMTFOA, VRMTFOA-AF
+IV.	EXPERIMENTAL RESULTS
+Our preliminary results were analyzed from three perspectives: behavioral eye-tracking, cortical activation (EEG ERD), and neural network connectivity (EEG Coherence).
+A. Eye-Tracking: Guidance Cues Significantly Increased Attentional Focus. The addition of attention-guiding cues progressively increased visual focus on the affected limb. Compared to the standard VRMT condition (21.64 s), the average fixation duration on the target limb increased by 67.7% in the VRMTFOA condition (36.28 s) and by 97.4% in the VRMTFOAAF condition (42.70 s). Consequently, the percentage of gaze time on the affected side rose from 47.86% (VRMT) to 64.32% (VRMTFOA), peaking at 71.41% with auditory feedback (VRMTFOAAF) (Figure 6).
+B. EEG ERD: VRMTFOA Elicited the Strongest Cortical Activation. Analysis of Mu and Beta rhythms revealed that VRMTFOA induced the strongest and most stable event-related desynchronization (ERD) across the motor, prefrontal, and parietal cortices, indicating the highest level of cortical activation (Figures 7-8). A notable characteristic of the VRMTFOA condition was a delayed ERD onset, which appeared after movement initiation, aligning with the initial cognitive demands of the "decide-then-act" task. While the VRMTFOAAF condition produced a lower ERD amplitude, its distribution was more uniform and stable, suggesting that auditory feedback helped reduce cognitive load and improve neural efficiency (Figure 9).
+C. EEG Coherence: Auditory Feedback Promoted Durable Neural Connectivity.
+Coherence analysis indicated that VRMTFOAAF was most effective at promoting persistent neural network connectivity. While coherence in the VRMT condition was low during movement and dissipated entirely during recovery, both VRMTFOA and VRMTFOAAF demonstrated markedly higher coherence during the task. Critically, the VRMTFOAAF condition exhibited significantly higher coherence during both short-term and long-term recovery phases, suggesting broader and more durable neuroplastic effects (Figure 10).
+D. Summary of Findings. In summary, the results differentiate the effects of the two augmented conditions. While VRMTFOA was most effective at maximizing immediate cortical activation (ERD), the addition of auditory feedback in VRMTFOAAF appeared to optimize cortical resource distribution, leading to the most stable and enduring changes in neural network connectivity (coherence). 
+
+ 
+ 
+Figure 6. Raw Eye Tracking Results
+
+ 
+
+ 
+Figure 7. Mu and Beta ERD in the motor cortex(C3 and C4). 
+ 
+Figure 8. Mu and Beta ERD in motor cortex, prefrontal cortex, sensorimotor and parietal lobes
+ 
+Figure 9. Scalp map: Mu and Beta ERD
+
+ 
+Figure 10. Mu‑Beta coherence comparing VRMT, VRMTFOA, VRMTFOA-AF
+V.	DISCUSSION 
+This study provides preliminary evidence that augmenting VR-based mirror therapy with attentional guidance and auditory feedback distinctly modulates behavioral engagement and its underlying neural dynamics. Our key findings indicate that while focused attention guidance is most effective for maximizing immediate cortical activation, the addition of auditory feedback appears to optimize neural efficiency and promote more durable, lasting changes in network connectivity.
+A. Guided Attention Amplifies Motor-Cognitive Engagement. The effectiveness of our attention-guiding protocol was first confirmed behaviorally. Eye-tracking data showed a progressive increase in gaze fixation on the affected limb from the baseline VRMT to the augmented conditions, validating that the multimodal cues successfully reduced visual distraction and anchored attention. This heightened engagement was mirrored at the neural level. The VRMTFOA condition elicited the most robust and stable ERD responses across a distributed network of motor, prefrontal, and parietal cortices, suggesting a synergistic enhancement of motor and cognitive circuits. Furthermore, the delayed ERD onset observed in this condition supports the role of the preparatory cognitive processing required by our "decide-then-act" task design, highlighting a deep integration of cognition and action.
+B. Auditory Feedback Optimizes Neural Efficiency and Promotes Network Reorganization. While attention guidance alone maximized cortical activation, the addition of auditory feedback (VRMTFOAAF) induced a different, potentially more beneficial, neural signature. Although its ERD amplitude was slightly lower, the activation pattern was more uniform and stable, suggesting improved neural efficiency. This effect likely stems from the auditory cues reducing the cognitive load required to maintain focus, allowing the brain to perform the task with less effort.
+Most importantly, this improved efficiency was linked to more persistent neuroplastic changes. Coherence analysis revealed that VRMTFOAAF produced the most durable network connectivity, which significantly outlasted the task itself and persisted through recovery phases. This is a critical finding, as it suggests that auditory feedback may better support the consolidation of long-term network reorganization—a primary goal of neurorehabilitation. In contrast, the weak and transient connectivity seen in the standard VRMT condition underscores its limited potential for inducing lasting neuroplastic effects. It is also important to acknowledge that these neural signatures were recorded from healthy adults. Stroke patients often present with baseline inter-hemispheric imbalances and cortical lesions, which may lead to different ERD and coherence patterns. Future studies on the target patient population are necessary to validate if VRMTFOA elicits similar or compensatory neural responses.
+VI.	CONCLUSION
+This study demonstrates that integrating real-time attentional guidance and auditory feedback into VR mirror therapy significantly enhances its therapeutic potential. Our preliminary findings reveal that these augmentations address the engagement and neural activation limitations of traditional approaches. Specifically, while attention guidance (VRMTFOA) is highly effective at maximizing immediate motor-cognitive cortical activation, the addition of auditory feedback (VRMTFOAAF) appears to optimize neural efficiency and promote more durable, long-lasting changes in neural network connectivity. 
+These findings, however, are based on a pilot study with a small sample of neurologically healthy adults. Therefore, the direct therapeutic efficacy on patient populations cannot yet be claimed. Our immediate future work will focus on validating these promising results in a larger clinical trial with stroke patients. Furthermore, we plan to enhance the system's accessibility by developing tele-rehabilitation modules and scaling the technology to low-cost hardware to support home-based care.
+In conclusion, the VRMTFOA system exemplifies the convergence of rehabilitation science, cognitive neuroscience, and human-centered engineering. By combining objective biomarkers with adaptive, multimodal feedback, it represents a significant step toward intelligent, data-driven neurorehabilitation tools 。 With rigorous clinical validation, this approach holds the potential to substantially improve patient recovery trajectories and functional independence, paving the way for a new era of precision rehabilitation.
+
+References 
+
+[1]	G. Kwakkel, B. J. Kollen, and H. I. Krebs, “Effects of Robot-Assisted Therapy on Upper Limb Recovery After Stroke: A Systematic Review,” Neurorehabil. Neural Repair, vol. 22, no. 2, pp. 111-121, Mar. 2008.
+[2]	V. L. Feigin et al., “Global, Regional, and National Burden of Stroke and Its Risk Factors, 1990–2019: A Systematic Analysis for the Global Burden of Disease Study 2019,” Lancet Neurol., vol. 20, no. 10, pp. 795-820, Oct. 2021.
+[3]	F. J. A. Deconinck et al., “Reflections on Mirror Therapy: A Systematic Review of the Effect of Mirror Visual Feedback on the Brain,” Neurorehabil. Neural Repair, vol. 29, no. 4, pp. 349-361, May 2015.
+[4]	K. Boström, K. de Pedro, and A. Sjösten, “Patients’ Experiences of Mirror Therapy for Phantom Limb Pain,” Disabil. Rehabil, vol. 42, no. 22, pp. 3201-3207, 2020.
+[5]	A. Rothgangel, S. Braun, A. Beurskens, I. Werner, and L. P. de Witte, “The Clinical Aspects of Virtual Reality in Rehabilitation: A Systematic Review,” Disabil. Rehabil., vol. 33, no. 17-18, pp. 1527-1539, 2011.
+[6]	Deconinck FJ, Smorenburg AR, Benham A, Ledebt A, Feltham MG, Savelsbergh GJ. “Reflections on mirror therapy: a systematic review of the effect of mirror visual feedback on the brain,” Neurorehabil Neural Repair. 2015 May;29(4):349-61. doi: 10.1177/1545968314546134. Epub 2014 Aug 26. PMID: 25160567.
+[7]	Fernández-Solana J, Álvarez-Pardo S, Moreno-Villanueva A, Santamaría-Peláez M, González-Bernal JJ, Vélez-Santamaría R, González-Santos J. “Efficacy of a Rehabilitation Program Using Mirror Therapy and Cognitive Therapeutic Exercise on Upper Limb Functionality in Patients with Acute Stroke,” Healthcare (Basel). 2024 Feb 29;12(5):569.
+[8]	C.-W. Lin, L.-C. Kuo, Y.-C. Lin, F.-C. Su, Y.-A. Lin, and H.-Y. Hsu, “Development and testing of a virtual reality mirror therapy system for the sensorimotor performance of upper extremity: a pilot randomized controlled trial,” IEEE Access, vol. 9, pp. 14725–14734, Jan. 2021, doi: 10.1109/access.2021.3050656.
+[9]	H.-Y. Hsu, L.-C. Kuo, Y.-C. Lin, F.-C. Su, T.-H. Yang, and C.-W. Lin, “Effects of a Virtual Reality–Based mirror therapy program on improving sensorimotor function of hands in chronic stroke patients: a randomized controlled trial,” Neurorehabilitation and Neural Repair, vol. 36, no. 6, pp. 335–345, Mar. 2022, doi: 10.1177/15459683221081430.
+[10]	Y.-R. Paik, S.-K. Kim, J.-S. Lee, and B.-J. Jeon, “Simple and task-oriented mirror therapy for upper extremity function in stroke patients: a pilot study,” Hong Kong Journal of Occupational Therapy, vol. 24, no. 1, pp. 6–12, Mar. 2014, doi: 10.1016/j.hkjot.2014.01.002.
+[11]	S. H. Bae, W. S. Jeong, and K. Y. Kim, “Effects of mirror therapy on subacute stroke patients’ brain waves and upper extremity functions,” Journal of Physical Therapy Science, vol. 24, no. 11, pp. 1119–1122, Jan. 2012, doi: 10.1589/jpts.24.1119.
+[12]	B.-S. Lin, J.-L. Chen, and H.-C. Hsu, “Novel Upper-Limb Rehabilitation System based on attention Technology for Post-Stroke Patients: A Preliminary study,” IEEE Access, vol. 6, pp. 2720–2731, Dec. 2017, doi: 10.1109/access.2017.2785122. 
+
